@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
 const fetch = require("node-fetch");
-const fs = require("fs");
+const fs = require("fs");   
 const path = require("path");
 
 const HF_TOKEN = process.env.HF_TOKEN;
@@ -66,3 +66,4 @@ app.post("/predict", upload.single("image"), async (req, res) => {
 app.listen(PORT, () =>
   console.log(`🚀 Server running on http://localhost:${PORT}`)
 );
+
