@@ -59,7 +59,6 @@ Create a .env file in the backend folder and add your Gemini API key:
 
 Code snippet
 PORT=5000
-GEMINI_API_KEY=your_google_gemini_api_key_here
 Start the backend server:
 ```
 ```Bash
