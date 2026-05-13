@@ -7,7 +7,7 @@ const fs = require("fs");
 const path = require("path");
 
 const HF_TOKEN = process.env.HF_TOKEN;
-const MODEL_URL = "https://router.huggingface.co/hf-inference/models/wambugu71/crop_leaf_diseases_vit";
+const MODEL_URL = "https://router.huggingface.co/hf-inference/models/RegularGroup46/crop_leaf_diseases_vit";
 
 const app = express();
 const PORT = 5000;
