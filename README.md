@@ -35,7 +35,6 @@ LeafAI is an enterprise-grade, full-stack web application designed to detect pla
 **Backend:**
 *   Node.js & Express.js
 *   Multer (File handling)
-*   @google/generative-ai (Gemini SDK)
 *   Cors & Dotenv
 
 ---
