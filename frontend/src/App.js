@@ -9,7 +9,6 @@ const [preview,setPreview]=useState(null);
 const [result,setResult]=useState(null);
 const [logs,setLogs]=useState([]);
 const [showLoc,setShowLoc]=useState(true);
-
 const jargon=[
 "Analyzing chlorophyll spectrum...",
 "Mapping vein topology...",
@@ -29,7 +28,6 @@ jargon[Math.floor(Math.random()*jargon.length)]
 },2000);
 
 return ()=>clearInterval(interval);
-
 },[]);
 function handleFile(e){
 const f=e.target.files[0];
@@ -46,7 +44,6 @@ return;
 
 const form=new FormData();
 form.append("image",file);
-
 const res=await axios.post(
 "http://localhost:5000/predict",
 form
@@ -55,7 +52,6 @@ setResult(res.data);
 }
 
 function severity(conf){
-
 if(conf>85) return "High";
 if(conf>60) return "Moderate";
 return "Low";
