@@ -68,24 +68,10 @@ The model was tested on the **PlantVillage dataset**, covering 14 crop species a
 
 ### Performance Comparison
 
-| Model Variant | Accuracy (%) | Micro ROC-AUC |
-| --- | --- | --- |
-| CNN Baseline | 94.2% 
-
- | 0.972 
-
- |
-| EdgePlantNet | 95.6% 
-
- | 0.981 
-
- |
-| **ViT (Proposed)** | <br>**97.91%** 
-
- | <br>**0.99** 
-
- |
-
+Model Variant,Accuracy (%),Micro ROC-AUC
+CNN Baseline,94.2%   ,0.972   
+EdgePlantNet,95.6%   ,0.981   
+ViT (Proposed),97.91%   ,0.99   
 ### Key Findings
 
 * The model achieves a near-optimal **ROC-AUC of 0.99**.
