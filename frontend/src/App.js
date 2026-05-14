@@ -79,23 +79,18 @@ return(
 <button onClick={()=>setShowLoc(false)}>
 Continue
 </button>
-
 </div>
-
 </div>
-
 )}
 
 <header className="header">
 
 <h1>LeafAI Command Dashboard</h1>
-
 <select>
 <option>English</option>
 <option>हिन्दी</option>
 <option>ਪੰਜਾਬੀ</option>
 </select>
-
 </header>
 
 
@@ -104,27 +99,18 @@ Continue
 {/* LEFT PANEL */}
 
 <div className="panel">
-
 <h3>Leaf Scan</h3>
-
 <label className="upload">
-
 Upload Leaf
-
 <input
 type="file"
 accept="image/*"
 onChange={handleFile}
 />
-
 </label>
-
 {preview && <img src={preview} className="preview" alt="leaf"/>}
-
 <button onClick={scan}>Analyze</button>
-
 </div>
-
 
 {/* MIDDLE PANEL */}
 
